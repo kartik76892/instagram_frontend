@@ -7,7 +7,7 @@ function App() {
 
   const fetchFollowers = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/followers', {
+      const response = await fetch('https://instagram-backend-9d0t.onrender.com/api/followers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
